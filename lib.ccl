@@ -1,0 +1,9 @@
+import console
+
+function test() {
+  console.println("If you see this, it works!")
+}
+
+function main() {
+  console.println("Main ran")
+}

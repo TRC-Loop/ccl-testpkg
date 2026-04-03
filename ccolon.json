@@ -1,0 +1,7 @@
+{
+  "name": "ccl-testpkg",
+  "version": "0.1.0",
+  "description": "Pakage to test CColon's builtin pm",
+  "dependencies": {},
+  "type": "ccl"
+}
