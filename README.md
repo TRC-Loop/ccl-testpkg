@@ -1,15 +1,24 @@
 # ccl-testpkg
-Package to test CColon's package manager
 
-*Public Domain*
+Test package for the CColon package manager
 
-To try:
+Licensed under the Unlicense
+Public domain
+
+## Requirements
+
+> [!IMPORTANT]
+> Requires at least CColon version 1.0.0
+
+## Install
 
 ```
 ccolon pkg install https://github.com/TRC-Loop/ccl-testpkg
 ```
 
-then create a `.ccl` file, eg. `test.ccl`, and put this in it:
+## Usage
+
+Create a `.ccl` file, for example `test.ccl`, and add:
 
 ```
 function main() {
@@ -17,12 +26,19 @@ function main() {
 }
 ```
 
-It calls function test from `ccl-testpkg`-package, which prints:
+This calls the `test` function from the `ccl-testpkg` package, which prints:
 
 ```
 If you see this, it works!
 ```
 
-CColon: https://github.com/TRC-Loop/ccolon
+> [!NOTE]  
+> In future versions of CColon, you'll have to **import the package** first, to use its functions. The Guide will be 
 
-Package Manager Docs: https://ccolon.arne.sh/tools/packages/
+## Resources
+
+CColon
+[https://github.com/TRC-Loop/ccolon](https://github.com/TRC-Loop/ccolon)
+
+Package Manager Docs
+[https://ccolon.arne.sh/tools/packages/](https://ccolon.arne.sh/tools/packages/)
